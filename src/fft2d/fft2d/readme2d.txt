@@ -69,3 +69,9 @@ Copyright
     You may use, copy, modify this code for any purpose and 
     without fee. You may distribute this ORIGINAL package.
 
+History
+    ...
+    Nov. 2001  : Add 3D-FFT routines
+    Dec. 2006  : Fix a documentation bug in "fftsg3d.*"
+    Dec. 2006  : Fix a minor bug in "fftsg.f"
+
