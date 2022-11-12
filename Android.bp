@@ -55,15 +55,15 @@ cc_library_static {
         "src/fft2d/fft2d/fftsg.c",
         "src/fft2d/fft2d/fftsg2d.c",
         "src/fft2d/fft2d/alloc.c",
-	"src/fft2d/fft2d/shrtdct.c"
+        "src/fft2d/fft2d/shrtdct.c",
     ],
     cflags: [
         "-Wno-unused-parameter",
-	"-Wno-unused-function",
+        "-Wno-unused-function",
     ],
     export_include_dirs: ["src/fft2d"],
     sanitize: {
-      integer_overflow: true,
+        integer_overflow: true,
     },
     apex_available: [
         "//apex_available:platform",
